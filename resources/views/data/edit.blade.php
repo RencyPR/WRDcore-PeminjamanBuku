@@ -21,7 +21,9 @@
 
         <div class="mb-3">
             <label for="KdPinjam" class="form-label">Kode Pinjaman</label>
-            <input type="text" name="KdPinjam" class="form-control" value="{{ old('KdPinjam', $data->KdPinjam) }}" required>
+            <input type="text" name="KdPinjam" class="form-control" 
+                value="{{ old('KdPinjam', $data->KdPinjam) }}" 
+                readonly>
         </div>
 
         <div class="mb-3">

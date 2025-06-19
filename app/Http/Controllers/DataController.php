@@ -91,7 +91,6 @@ class DataController extends Controller
 
 
     $request->validate([
-        'KdPinjam' => 'required|unique:datas,KdPinjam,' . $data->id,
         'nama' => 'required',
         'judul' => 'required',
         'KdBuku' => 'required',
